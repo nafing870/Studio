@@ -1,0 +1,1676 @@
+
+
+HTML:
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WetCave Studio</title>
+    <link rel="stylesheet" href="./assets/css/scrollbar.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/a59d8cde3d.css" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins'>
+</head>
+<body>
+
+  <nav>
+      <a class="brandname">WetCave.Studio</a><div class="dot"></div>
+  </nav>
+
+  <div class="open">
+    <span class="cls"></span>
+    <span>
+      <ul class="sub-menu ">
+        <li>
+          <a href="#start" title="start">Główna</a>
+        </li>
+        <li>
+          <a href="#about" title="about">O nas</a>
+        </li>
+        <li>
+          <a href="#jobs" title="jobs">Oferta</a>
+        </li>
+        <li>
+          <a href="#contact" title="contact">Kontakt</a>
+        </li>
+      </ul>
+    </span>
+    <span class="cls"></span>
+  </div>
+  
+    <div class="txtt">
+      <h1>Zrealizujemy <span style="color: crimson;">Twoją</span> <br> wizję dźwiękową</h1>
+      <h2>Bo brzmienie - ma znaczenie.</h2>
+    </div>  
+          <div class="dot2"></div>
+          
+          <div class="joinus-studio">
+            <div class="joinus">
+              <h3>Zacznij swoją przygodę <br>razem z nami!</h3>
+              <i class="fa-solid fa-right-long"></i>
+            </div>
+            <div class="studio">
+              <img src="./assets/img/studio2.png">
+            </div>
+          </div>
+
+<div class="mjuzik">
+      <div id="app-cover">
+        <div id="bg-artwork"></div>
+        <div id="bg-layer"></div>
+        <div id="player">
+          <div id="player-track">
+            <div id="album-name"></div>
+            <div id="track-name"></div>
+            <div id="track-time">
+              <div id="current-time"></div>
+              <div id="track-length"></div>
+            </div>
+            <div id="s-area">
+              <div id="ins-time"></div>
+              <div id="s-hover"></div>
+              <div id="seek-bar"></div>
+            </div>
+          </div>
+          <div id="player-content">
+            <div id="album-art">
+              <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg" class="active" id="_1">
+              <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg" id="_2">
+              <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
+              <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg" id="_4">
+              <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
+              <div id="buffer-box">Wczytywanie...</div>
+            </div>
+            <div id="player-controls">
+              <div class="control">
+                <div class="player_button" id="play-previous">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+              </div>
+              <div class="control">
+                <div class="player_button" id="play-pause-button">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div class="control">
+                <div class="player_button" id="play-next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="fonts">
+  <i class="fa-solid fa-book-open"></i>
+  <i class="fas fa-briefcase"></i>
+  <i class="fa-solid fa-headphones"></i>
+</div>
+<div class="about_us">
+  <div class="services">
+    <h6>Co oferujemy</h6>
+    <h5>
+      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+    </h4>
+  </div>
+
+  <div class="experience">
+    <h6>Doświadczenie</h6>
+      <h5>Zajmujemy się produkcją, realizacją, miksem oraz masteringiem utworów na profesjonalnym poziomie głównie za sprawą swojego wieloletniego doświadczenia oraz nienagannej architektury samego wnętrza naszego studia. Nasze studio, dzięki idealnie dopasowanym narzędziom pozwala nam wykrzesać 100% możliwości Waszych zdolności artystycznych, a dzięki naszym, skromnym, ale cennym poradom oraz znakomitej i przebiegającej w całkowitym luzie i bez żadnej presji realizacji, pomożemy Ci wskoczyć na wyższy poziom. Dzięki temu, wszystko to, co do tej pory wydawało Ci się nieosiągalne - znajdzie się w zasięgu ręki. Jedyne, co pozostanie, to po to sięgnąć i rozpocząć swoją ścieżkę na zupełnie innym poziomie niż dotychczas. Pozwalamy uwierzyć w to, że to, o czym marzysz jest możliwe.</h4>
+  </div>
+
+  <div class="equipment">
+    <h6>Wyposażenie studia</h6>
+      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt maiores veritatis quisquam neque perspiciatis repellat id eveniet. Non, minus officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis modi delectus asperiores ipsum beatae quis similique quisquam a nesciunt! Architecto ipsam laborum quisquam nisi delectus veritatis optio illum mollitia et corrupti nulla dicta asperiores voluptatum magni tempora, similique incidunt sit nobis tempore molestiae non, repellendus saepe recusandae aliquam. Magni soluta nulla non, eligendi modi maiores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum rem quisquam libero, quidem, adipisci enim praesentium earum ipsam placeat officia hic.</h4>
+  </div>
+</div>
+
+<section class="contact">
+  <main>Kontakt</main>
+  <div class="contact-form">
+    <form>
+      <div class="form-left">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" placeholder="Miło Cię poznać!" required>
+        <label for="nickname">Ksywka (jeśli masz):</label>
+        <input type="text" id="nickname" name="nickname" placeholder="Zdradź ksywę, jeśli nie masz, to pomiń">
+        <label for="phone">Numer telefonu:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Wpisz swój numer telefonu" required>
+        <label for="email">Adres e-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Wpisz swój adres e-mail" required>
+        <label for="studio">Wpisz nazwę naszego studia:</label>
+        <input type="text" id="studio" name="email" placeholder="Potwierdź, że nie jesteś botem." required>
+      </div>
+      <div class="form-right">
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="message" rows="6" placeholder="Jaką masz do nas sprawę? Chcesz, abyśmy wycenili coś dla Ciebie indywidualnie? Może masz zamysł na większy projekt i chcesz umówić kilka sesji do przodu? Śmiało, podeślij to nas wiadomość, oddzwonimy do Ciebie albo wyślemy maila, napisz co wolisz. [OKNO MOŻNA ROZWIJAĆ W PRAWYM DOLNYM ROGU]" required></textarea>
+        <button type="submit" class="button-center">Wyślij</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+
+
+
+<a href="#" id="back-to-top-button">
+  <i class="fa fa-chevron-up"></i>
+</a>
+<!-- start fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooter -->
+<footer class="flex-rw">
+<ul class="footer-list-top">
+  <li>
+    <h4 class="footer-list-header">O marce</h4></li>
+  <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">Poznajmy się</a></li>
+  <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">Promocje</a></li>
+  <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">Zostań partnerem</a></li>
+  <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">Oferty pracy</a></li>
+  <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">Wydarzenia</a></li>
+</ul>
+
+
+<ul class="footer-list-top">
+  <li id='help'>
+    <h4 class="footer-list-header">Pomoc</h4></li>
+  <li><a href="" class="generic-anchor footer-list-anchor" itemprop="significantLink">Kontakt</a></li>
+  <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
+  <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">Lokalizacja</a></li>
+  <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">Nowi odwiedzający</a></li>
+  <li><a href='' itemprop="significantLink" class="generic-anchor footer-list-anchor">Status rezerwacji</a></li>
+</ul>
+
+<section class="footer-social-section flex-rw">
+  <span class="footer-social-overlap footer-social-connect">
+    STEJ <span class="footer-social-small">in</span> TACZ
+  </span>
+  <span class="footer-social-overlap footer-social-icons-wrapper">
+    <a href="https://www.facebook.com/" class="generic-anchor social-icon" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/" class="generic-anchor social-icon" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
+    <a href="http://instagram.com/" class="generic-anchor social-icon" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.youtube.com/" class="generic-anchor social-icon" target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
+  </span>
+</section>
+
+
+<section class="footer-bottom-section flex-rw">
+  <div class="footer-bottom-wrapper">   
+      </i>WetCave Studio<address class="footer-address" role="company address">, Polska 2023 </address><i class="fa fa-copyright" role="copyright"></i>
+  </div>
+      <div class="kopirajtsy">
+          <span class="footer-bottom-rights">
+            Wszelkie prawa zastrzeżone <i class="fa fa-copyright" role="copyright"> </i></span> <br>
+              zrealizował:<br>
+            <a href="https://www.instagram.com/dymynyky/" target="_blank"> Dominik Górski</a>
+      </div>
+</section>
+
+</footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./assets/js/main.js"></script>
+<script src="https://kit.fontawesome.com/a59d8cde3d.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS:
+
+body {
+    font-family:Poppins;
+    color:white;
+    background:linear-gradient(to left bottom, #12141b, #1b1e29f0);
+}
+
+.fa-right-long {
+  margin-left:1vw;
+  margin-top:0vh;
+  font-size:40px;
+  opacity: 1;
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  z-index:999;
+}
+
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.brandname {
+
+    margin-left:6vh;
+    font-size:26px;
+    font-weight:600;
+    height:20px;
+    cursor:pointer;
+    z-index:5;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    flex-wrap: wrap;
+
+}
+
+.dot {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin-left: 235px;
+  border-radius: 50%;
+  background-color: crimson;
+  content: "\25CF";
+  font-size: 10px;
+  color: #fff;
+  cursor:default;
+    display: flex;
+  flex-direction: row;
+  margin-top: -10px;
+  flex-wrap: wrap;
+}
+
+.dot2 {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  margin-left: 42vh;
+  margin-top: 10vh;
+  border-radius: 50%;
+  background-color: crimson;
+  content: "\25CF";
+  font-size: 30px;
+  color: #fff;
+  flex-direction: row;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.contact {
+  display: flex;
+  margin-left: 145vh;
+}
+
+.dots {
+
+    display:flex;
+    margin-top:1vh;
+    cursor:pointer;
+
+}
+.dots:hover {
+  animation: bounce 0.2s;
+}
+
+@keyframes bounce {
+0%, 20%, 50%, 80%, 100% {
+  transform: translateX(0);
+}
+20% {
+  transform: translateY(-10px);
+}
+60% {
+  transform: translateY(-5px);
+}
+}
+
+
+h1 {
+   font-weight: bold;
+    padding:0;
+    margin-left:10vh;
+    margin-top:5vh;
+    font-size:70px;
+
+}
+
+h2 { 
+  
+    padding:0;
+    margin-left:10vh;
+    font-size:20px;
+    font-weight:100;
+    color:#ffffff74
+
+}
+
+h3 {
+  padding: 0;
+  margin-left: -1.5vh;
+  font-size: 24px;
+  font-weight: 900;
+  display: inline-block;
+}
+
+h6 {
+  padding:2vh;
+  margin:10vh;
+  margin-top:10vh;
+  max-width:400px;
+  font-size:20px;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: -1px 0 black;
+  text-transform: uppercase;
+  text-decoration: line-through rgb(255, 255, 255);
+  letter-spacing: 3px;
+  background-color: rgba(220, 20, 60, 0.435);
+  filter: drop-shadow(0px 20px 20px rgb(0, 0, 0));
+  border: 1px solid crimson;
+  border-radius:20px;
+	z-index: 1;
+
+}
+
+h4 {
+  filter: drop-shadow(1px 1px 8px rgb(0, 0, 0));
+}
+
+h5 {
+  
+  padding:0;
+  margin:10vh;
+  margin-top:5vh;
+  max-width:400px;
+  font-size:15px;
+  font-weight: 100;
+  color:rgba(255, 255, 255, 0.597);
+  filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+
+}
+
+/*back to top button */ 
+
+#back-to-top-button {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 99;
+}
+
+#back-to-top-button i {
+  opacity: 0.7;
+}
+
+#back-to-top-button:hover i {
+  opacity: 1;
+}
+
+.fa-chevron-up {
+  color: #ffffffd5;
+  font-size:60px;
+  border-radius:100%;
+}
+
+.fa-chevron-up:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/*back to top button */ 
+
+
+.joinus-studio {
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  }
+  
+  .studio {
+  background-color: transparent;
+  position: relative;
+  height: 550px;
+  }
+  
+  .studio img {
+  display: flex;
+  height: 100%;
+  position: absolute;
+  top: -8vh;
+  left: 120vh;
+  right: 1vw;
+  transform: translateY(-50%) translateX(-50%);
+  filter: drop-shadow(10px 19px 38px rgba(0, 0, 0, 0.661)) drop-shadow(10px 15px 12px rgba(0, 0, 0, 0.678));
+  z-index: -1;
+  }
+  
+  .joinus {
+  max-width: calc(100vw - 50%);
+  padding: 0;
+  position: absolute;
+  left: 460px; 
+  top: -90px; 
+  right: auto;
+  }
+
+
+
+
+
+.about_us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.fonts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: crimson; 
+}
+
+.fa-book-open {
+  font-size: 60px;
+  display: inline-block;
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.95));
+  outline: none;
+}
+
+.fa-briefcase{
+  font-size: 60px;
+  display: inline-block;
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.95));
+  outline: none;
+}
+
+.fa-briefcase:hover {
+  scale:1.055;
+}
+
+.fa-headphones {
+  font-size: 60px;
+  display: inline-block;
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.95));
+  outline: none;
+}
+
+.fa-headphones:hover {
+  scale:1.055;
+}
+
+
+.services {
+}
+
+.experience {
+}
+
+.equipment {
+}
+
+.txtt {
+  z-index:5;
+
+}
+
+/* Audio player: */
+
+
+#app-cover {
+  position: absolute;
+  top: 66vh;
+  right: 0vh;
+  left: 5vh;
+  width: 612px;
+  height: 70px;
+  margin-left: 5vh;
+}
+
+
+#player {
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+#player-track {
+  position: absolute;
+  height: 45px;
+  top: 0px;
+  right: 15px;
+  left: 15px;
+  padding: 5px 18px 14px 160px;
+  background-color: #ffffff00;
+  border-radius: 65px 13px 0 0;
+  transition: 0.5s ease top;
+  z-index: 1;
+}
+
+#player-track.active {
+  top: -64px;
+}
+
+#album-name {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#track-name {
+  color: #acaebd;
+  font-size: 12px;
+  margin: -2px 0 20px 0;
+}
+
+#track-time {
+  height: 13px;
+  margin-bottom: 3px;
+  overflow: hidden;
+  margin-top: -18px;
+}
+
+#current-time {
+  float: left;
+}
+
+#track-length {
+  float: right;
+}
+
+#current-time, #track-length {
+  color: transparent;
+  font-size: 12px;
+  background-color: #ffffff00;
+  border-radius: 10px;
+  transition: 0.5s ease all;
+}
+
+#track-time.active #current-time,
+#track-time.active #track-length {
+  color: #dc143c;
+  background-color: transparent;
+}
+
+#s-area,
+#seek-bar {
+  position: relative;
+  height: 4px;
+  border-radius: 4px;
+}
+
+#s-area {
+  background-color: #ffe8ee;
+  cursor: pointer;
+}
+
+#ins-time {
+  position: absolute;
+  top: -29px;
+  color: #fff;
+  font-size: 12px;
+  white-space: pre;
+  padding: 5px 6px;
+  border-radius: 4px;
+  display: none;
+}
+
+#s-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+  z-index: 2;
+}
+
+#ins-time,
+#s-hover {
+  background-color: #dc143c;
+}
+
+#seek-bar {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background-color: #dc143c;
+  transition: 0.5s ease width;
+  z-index: 1;
+}
+
+#player-content {
+    position: relative;
+    height: 100%;
+    background-color: #1b1e29;
+    box-shadow: black 10px 10px 20px -10px;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+#album-art {
+  position: absolute;
+  top: -40px;
+  width: 115px;
+  height: 115px;
+  margin-left: 40px;
+  transform: rotateZ(0);
+  transition: 0.5s ease all;
+  box-shadow: rgb(0, 0, 0) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 1px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#album-art.active {
+  top: -70px;
+  box-shadow: 0 0 0 2px #dc143c, 0px 5px 10px 7px #000000;
+}
+
+#album-art:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  margin: -10px auto 0 auto;
+  background-color: #d6dee7;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px #fff;
+  z-index: 2;
+}
+
+#album-art img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+}
+
+#album-art img.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+#album-art.active img.active {
+  z-index: 1;
+  animation: rotateAlbumArt 3s linear 0s infinite forwards;
+}
+
+@keyframes rotateAlbumArt {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+#buffer-box {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  height: 13px;
+  color: #1f1f1f;
+  font-size: 13px;
+  font-family: Poppins;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+  padding: 6px;
+  margin: -12px auto 0 auto;
+  background-color: rgba(255, 255, 255, 0.19);
+  opacity: 0;
+  z-index: 2;
+}
+
+#album-art img,
+#buffer-box {
+  transition: 0.5s linear all;
+}
+
+#album-art.buffering img {
+  opacity: 0.25;
+}
+
+#album-art.buffering img.active {
+  opacity: 0.8;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+#album-art.buffering #buffer-box {
+  opacity: 1;
+}
+
+#player-controls {
+  width: 250px;
+  height: 100%;
+  margin: 0 5px 0 141px;
+  float: right;
+  overflow: hidden;
+}
+
+.control {
+  width: 33.333%;
+  float: left;
+  padding: 12px 0;
+}
+
+.player_button {
+  width: 26px;
+  height: 0px;
+  padding: 23px;
+  background-color: #1b1e29f0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.player_button i {
+  display: block;
+  color: #fffffff0;
+  margin-top: -10px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1;
+}
+
+.player_button,
+.player_button i {
+  transition: 0.5s ease all;
+}
+
+.player_button:hover {
+  background-color: #363c51ca;
+}
+
+.player_button:hover i {
+  color: #fff;
+}
+
+/* KONTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKT */
+
+.contact {
+  display: flex;
+  margin-left: 0vh;
+  flex-direction: column;
+  }
+  
+  .contact h2 {
+  font-size: 3em;
+  margin-bottom: 50px;
+  }
+  
+  .contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  }
+  
+  .contact-form form {
+  gap: 20px;
+  display: flex;
+  margin: 150px 10%;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .form-left {
+  width: 50%;
+  padding-right: 5%;
+  font-family: Poppins;
+  }
+  
+  .form-left label,
+  .form-left input {
+  display: flex;
+  margin-bottom: 20px;
+  }
+  
+  .form-left label {
+  font-size: 1.6em;
+  }
+  
+  .form-left input,
+  .form-left textarea {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4em;
+  }
+  
+  .form-right {
+  width: 50%;
+  margin-left: 10%;
+  font-family: Poppins;
+  }
+  
+  .form-right label,
+  .form-right textarea {
+  display: block;
+  margin-bottom: 20px;
+  }
+  
+  .form-right label {
+  font-size: 1.6em;
+  }
+  
+  .form-right textarea {
+  width: 100%;
+  height: 80%;
+  max-height: 800px;
+  max-width: 700px;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.4em;
+  resize: vertical;
+  font-family: Poppins;
+  }
+
+  .button-center {
+    display: block;
+    margin: -100px auto;
+    width: 200px;
+    padding: 12px 20px;
+    background-color: #e82253;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+  
+.contact-form form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.form-right button {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEEEEEEEEEENUUUUUUUUUUUUUUU */
+
+.open {
+  position: fixed;
+  top: 30px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+  opacity: 0.8;
+  z-index: 50;
+}
+.open:hover {
+  opacity: 1;
+}
+.open span {
+  display: block;
+  float: left;
+  clear: both;
+  height: 4px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #fff;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+.open span:nth-child(1) {
+  margin-top: 10px;
+  z-index: 9;
+  
+}
+.open span:nth-child(2) {
+  margin-top: 25px;
+}
+.open span:nth-child(3) {
+  margin-top: 40px;
+}
+.sub-menu {
+  display: flex;
+  transition: all -0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  height: 0;
+  width: 0;
+  right: 0;
+  top: 0px;
+  position: sticky;
+  background-color: rgba(220, 20, 60, 0.783);
+  border-radius: 48%;
+  z-index: 18;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.sub-menu li {
+  display: flex;
+  float: right;
+  clear: both;
+  margin-top:-10vh;
+  margin-right: -1px;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sub-menu li:hover {
+    scale:1.4;
+    transition-duration: 0.2s;
+}
+.sub-menu li:first-child {
+  margin-top: 180px;
+}
+.sub-menu li:nth-child(1) {
+  -webkit-transition-delay: 0.05s;
+}
+.sub-menu li:nth-child(2) {
+  -webkit-transition-delay: 0.1s;
+}
+.sub-menu li:nth-child(3) {
+  -webkit-transition-delay: 0.15s;
+}
+.sub-menu li:nth-child(4) {
+  -webkit-transition-delay: 0.2s;
+}
+.sub-menu li:nth-child(5) {
+  -webkit-transition-delay: 0.25s;
+}
+.sub-menu li a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  width: 100%;
+  display: block;
+  float: right;
+  text-decoration: none;
+  line-height: 0px;
+}
+
+.sub-menu li a:hover {
+    filter: drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.95));
+}
+
+.oppenned .sub-menu {
+  opacity: 1;
+  height: 50vh;
+  width: 45vh;
+}
+.oppenned span:nth-child(2) {
+  overflow: visible;
+}
+.oppenned span:nth-child(1), .oppenned span:nth-child(3) {
+  z-index: 100;
+  transform: rotate(45deg);
+}
+.oppenned span:nth-child(1) {
+  transform: rotate(45deg) translateY(12px) translateX(12px);
+}
+.oppenned span:nth-child(2) {
+  height: 400px;
+  width: 400px;
+  right: -160px;
+  top: -160px;
+  border-radius: 50%;
+  background-color: rgba(220, 20, 60, 0.51);
+}
+.oppenned span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-10px) translateX(10px);
+}
+.oppenned li {
+  margin-right: 168px;
+}
+
+
+
+
+
+
+
+/* FOOOOOOOOOOOOOTEEEEEEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRR */
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 11px "Poppins";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.generic-anchor {
+  color: #1b1e29;
+  
+}
+.generic-anchor:visited {
+  color: #1b1e2977;
+}
+.generic-anchor:hover {
+  color: #ffffff;
+  filter: drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.95));
+}
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-around;
+}
+main {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 10em "Poppins", sans-serif;
+  color: #626e9989;
+  line-height: 1;
+}
+footer {
+  background: #dc143c;
+  margin-top: auto;
+  width: 100%;
+}
+.footer-list-top {
+  width: 33.333%;
+  padding: 5px 0;
+}
+
+.footer-list-top > li {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer-list-header {
+  padding: 10px 0 5px 0;
+  color: #fff;
+  font: 2.3vw "Poppins";
+  font-weight: 900;
+  pointer-events: none;
+}
+.footer-list-top > li:hover:not(:first-child) { 
+  transform: scale(1.115);
+  transition-duration: 0.25s;
+}
+
+.footer-list-anchor {
+  font: 1.3em "Poppins", sans-serif;
+  font-weight:400;
+}
+
+
+.footer-social-section {
+  width: 85%;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 15px;
+}
+
+.footer-social-section::after {
+  content: "WetCave";
+  color: rgba(255, 255, 255, 0.689);
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 10px;
+  border-top: 6px solid #1b1e2961;
+  width: calc(100% - 20px);
+}
+
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
+  background: rgba(232, 34, 83, 0.814);
+  padding: 0 20px;
+}
+
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font-size: 5vh;
+  letter-spacing: 5px;
+  color: #1b1e29;
+  font-weight: 900;
+}
+
+.footer-social-small {
+  font-size: 0.6em;
+  padding: 0px 20px;
+}
+
+.footer-social-overlap > a {
+  font-size: 5vh;
+  font-weight: 900;
+  letter-spacing: 15px;
+  display: inline-block; /* nie wiem na chuj to ale ok */
+}
+
+.footer-social-overlap > a:hover {
+  transform: scale(1.4); 
+  transition-duration: 0.25s;
+}
+.footer-social-overlap > a:not(:first-child) {
+  margin-left: 0.38em;
+}
+
+
+.footer-bottom-section {
+  display: flex;
+  width: 65%;
+  padding: 10px;
+  border-top: 6px solid #1b1e2961;
+  margin-top: 10px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.footer-bottom-section > div:first-child {
+  margin-right: auto;
+}
+.footer-bottom-wrapper {
+  font-size: 1.5em;
+  color: #1b1e29;
+}
+.footer-address {
+  display: inline;
+  font-style: normal;
+}
+
+.kopirajtsy {
+  display: flex;
+  font-size: 11px;
+  float: right;
+  color: #1b1e29;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-copyright {
+  margin-right:5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-list-header {
+    font-size: 2em;
+ }
+  .footer-list-anchor {
+    font-size: 1.1em;
+ }
+  .footer-social-connect {
+    font-size: 2.5em;
+ }
+  .footer-social-overlap > a {
+    font-size: 2.24em;
+ }
+  .footer-bottom-wrapper {
+    font-size: 1.3em;
+ }
+}
+@media only screen and (max-width: 568px) {
+  main {
+    font-size: 5em;
+ }
+  .footer-list-top {
+    width: 100%;
+ }
+  .footer-list-header {
+    font-size: 3em;
+ }
+  .footer-list-anchor {
+    font-size: 1.5em;
+ }
+  .footer-social-section {
+    justify-content: center;
+ }
+  .footer-social-section::after {
+    top: 25%;
+ }
+  .footer-social-connect {
+    margin-bottom: 10px;
+    padding: 0 10px;
+ }
+  .footer-social-overlap {
+    display: flex;
+    justify-content: center;
+ }
+  .footer-social-icons-wrapper {
+    width: 100%;
+    padding: 0;
+ }
+
+ .footer-social-icons-wrapper:{
+    
+ }
+
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 20px;
+ }
+  .footer-bottom-section {
+    padding: 0 5px 10px 5px;
+ }
+  .footer-bottom-wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+ }
+}
+@media only screen and (max-width: 480px) {
+  .footer-social-overlap > a {
+    margin: auto;
+ }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0;
+ }
+  .footer-bottom-rights {
+    display: flex;
+ }
+}
+@media only screen and (max-width: 320px) {
+  .footer-list-header {
+    font-size: 2.2em;
+ }
+  .footer-list-anchor {
+    font-size: 1.2em;
+ }
+  .footer-social-connect {
+    font-size: 2.4em;
+ }
+  .footer-social-overlap > a {
+    font-size: 2.24em;
+ }
+  .footer-bottom-wrapper {
+    font-size: 1.3em;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JavaScript:
+
+
+$(document).ready(function() {
+  $(document).delegate('.open', 'click', function(event){
+    $(this).addClass('oppenned');
+    event.stopPropagation();
+  })
+  $(document).delegate('body', 'click', function(event) {
+    $('.open').removeClass('oppenned');
+  })
+  $(document).delegate('.cls', 'click', function(event){
+    $('.open').removeClass('oppenned');
+    event.stopPropagation();
+  });
+});
+
+
+var backToTopButton = document.getElementById("back-to-top-button");
+
+window.addEventListener("scroll", function() {
+  if (window.pageYOffset > 150) {
+    backToTopButton.style.display = "block";
+  } else {
+    backToTopButton.style.display = "none";
+  }
+});
+
+// nasłuchiwanie zdarzenia kliknięcia na przycisku "Powrót do góry"
+$('#back-to-top-button').click(function() {
+  $('html, body').animate({scrollTop: 0}, 1000); // przewijanie do góry z animacją przez 1000ms (1s)
+});
+
+
+
+
+
+$(function () {
+    var playerTrack = $("#player-track"),
+      bgArtwork = $("#bg-artwork"),
+      bgArtworkUrl,
+      albumName = $("#album-name"),
+      trackName = $("#track-name"),
+      albumArt = $("#album-art"),
+      sArea = $("#s-area"),
+      seekBar = $("#seek-bar"),
+      trackTime = $("#track-time"),
+      insTime = $("#ins-time"),
+      sHover = $("#s-hover"),
+      playPauseButton = $("#play-pause-button"),
+      i = playPauseButton.find("i"),
+      tProgress = $("#current-time"),
+      tTime = $("#track-length"),
+      seekT,
+      seekLoc,
+      seekBarPos,
+      cM,
+      ctMinutes,
+      ctSeconds,
+      curMinutes,
+      curSeconds,
+      durMinutes,
+      durSeconds,
+      playProgress,
+      bTime,
+      nTime = 0,
+      buffInterval = null,
+      tFlag = false,
+      albums = [
+        "Dawn",
+        "Me & You",
+        "Electro Boy",
+        "Home",
+        "Proxy (Original Mix)"
+      ],
+      trackNames = [
+        "Skylike - Dawn",
+        "Alex Skrindo - Me & You",
+        "Kaaze - Electro Boy",
+        "Jordan Schor - Home",
+        "Martin Garrix - Proxy"
+      ],
+      albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
+      trackUrl = [
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/2.mp3",
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/1.mp3",
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3",
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3",
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3"
+      ],
+      playPreviousTrackButton = $("#play-previous"),
+      playNextTrackButton = $("#play-next"),
+      currIndex = -1;
+  
+    function playPause() {
+      setTimeout(function () {
+        if (audio.paused) {
+          playerTrack.addClass("active");
+          albumArt.addClass("active");
+          checkBuffering();
+          i.attr("class", "fas fa-pause");
+          audio.play();
+        } else {
+          playerTrack.removeClass("active");
+          albumArt.removeClass("active");
+          clearInterval(buffInterval);
+          albumArt.removeClass("buffering");
+          i.attr("class", "fas fa-play");
+          audio.pause();
+        }
+      }, 300);
+    }
+  
+    function showHover(event) {
+      seekBarPos = sArea.offset();
+      seekT = event.clientX - seekBarPos.left;
+      seekLoc = audio.duration * (seekT / sArea.outerWidth());
+  
+      sHover.width(seekT);
+  
+      cM = seekLoc / 60;
+  
+      ctMinutes = Math.floor(cM);
+      ctSeconds = Math.floor(seekLoc - ctMinutes * 60);
+  
+      if (ctMinutes < 0 || ctSeconds < 0) return;
+  
+      if (ctMinutes < 0 || ctSeconds < 0) return;
+  
+      if (ctMinutes < 10) ctMinutes = "0" + ctMinutes;
+      if (ctSeconds < 10) ctSeconds = "0" + ctSeconds;
+  
+      if (isNaN(ctMinutes) || isNaN(ctSeconds)) insTime.text("--:--");
+      else insTime.text(ctMinutes + ":" + ctSeconds);
+  
+      insTime.css({ left: seekT, "margin-left": "-21px" }).fadeIn(0);
+    }
+  
+    function hideHover() {
+      sHover.width(0);
+      insTime.text("00:00").css({ left: "0px", "margin-left": "0px" }).fadeOut(0);
+    }
+  
+    function playFromClickedPos() {
+      audio.currentTime = seekLoc;
+      seekBar.width(seekT);
+      hideHover();
+    }
+  
+    function updateCurrTime() {
+      nTime = new Date();
+      nTime = nTime.getTime();
+  
+      if (!tFlag) {
+        tFlag = true;
+        trackTime.addClass("active");
+      }
+  
+      curMinutes = Math.floor(audio.currentTime / 60);
+      curSeconds = Math.floor(audio.currentTime - curMinutes * 60);
+  
+      durMinutes = Math.floor(audio.duration / 60);
+      durSeconds = Math.floor(audio.duration - durMinutes * 60);
+  
+      playProgress = (audio.currentTime / audio.duration) * 100;
+  
+      if (curMinutes < 10) curMinutes = "0" + curMinutes;
+      if (curSeconds < 10) curSeconds = "0" + curSeconds;
+  
+      if (durMinutes < 10) durMinutes = "0" + durMinutes;
+      if (durSeconds < 10) durSeconds = "0" + durSeconds;
+  
+      if (isNaN(curMinutes) || isNaN(curSeconds)) tProgress.text("00:00");
+      else tProgress.text(curMinutes + ":" + curSeconds);
+  
+      if (isNaN(durMinutes) || isNaN(durSeconds)) tTime.text("00:00");
+      else tTime.text(durMinutes + ":" + durSeconds);
+  
+      if (
+        isNaN(curMinutes) ||
+        isNaN(curSeconds) ||
+        isNaN(durMinutes) ||
+        isNaN(durSeconds)
+      )
+        trackTime.removeClass("active");
+      else trackTime.addClass("active");
+  
+      seekBar.width(playProgress + "%");
+  
+      if (playProgress == 100) {
+        i.attr("class", "fa fa-play");
+        seekBar.width(0);
+        tProgress.text("00:00");
+        albumArt.removeClass("buffering").removeClass("active");
+        clearInterval(buffInterval);
+      }
+    }
+  
+    function checkBuffering() {
+      clearInterval(buffInterval);
+      buffInterval = setInterval(function () {
+        if (nTime == 0 || bTime - nTime > 1000) albumArt.addClass("buffering");
+        else albumArt.removeClass("buffering");
+  
+        bTime = new Date();
+        bTime = bTime.getTime();
+      }, 100);
+    }
+  
+    function selectTrack(flag) {
+      if (flag == 0 || flag == 1) ++currIndex;
+      else --currIndex;
+  
+      if (currIndex > -1 && currIndex < albumArtworks.length) {
+        if (flag == 0) i.attr("class", "fa fa-play");
+        else {
+          albumArt.removeClass("buffering");
+          i.attr("class", "fa fa-pause");
+        }
+  
+        seekBar.width(0);
+        trackTime.removeClass("active");
+        tProgress.text("00:00");
+        tTime.text("00:00");
+  
+        currAlbum = albums[currIndex];
+        currTrackName = trackNames[currIndex];
+        currArtwork = albumArtworks[currIndex];
+  
+        audio.src = trackUrl[currIndex];
+  
+        nTime = 0;
+        bTime = new Date();
+        bTime = bTime.getTime();
+  
+        if (flag != 0) {
+          audio.play();
+          playerTrack.addClass("active");
+          albumArt.addClass("active");
+  
+          clearInterval(buffInterval);
+          checkBuffering();
+        }
+  
+        albumName.text(currAlbum);
+        trackName.text(currTrackName);
+        albumArt.find("img.active").removeClass("active");
+        $("#" + currArtwork).addClass("active");
+  
+        bgArtworkUrl = $("#" + currArtwork).attr("src");
+  
+        bgArtwork.css({ "background-image": "url(" + bgArtworkUrl + ")" });
+      } else {
+        if (flag == 0 || flag == 1) --currIndex;
+        else ++currIndex;
+      }
+    }
+  
+    function initPlayer() {
+      audio = new Audio();
+  
+      selectTrack(0);
+  
+      audio.loop = false;
+  
+      playPauseButton.on("click", playPause);
+  
+      sArea.mousemove(function (event) {
+        showHover(event);
+      });
+  
+      sArea.mouseout(hideHover);
+  
+      sArea.on("click", playFromClickedPos);
+  
+      $(audio).on("timeupdate", updateCurrTime);
+  
+      playPreviousTrackButton.on("click", function () {
+        selectTrack(-1);
+      });
+      playNextTrackButton.on("click", function () {
+        selectTrack(1);
+      });
+    }
+  
+    initPlayer();
+  });
+  
+
